@@ -11,7 +11,7 @@ on:
 jobs:
   # Build job
   # TODO-STEP 3: Create your "Build" job
-  build::
+  build:
     # TODO-STEP 3a: Specify the runner for this job
     runs-on: ubuntu-latest
 
