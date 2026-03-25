@@ -41,6 +41,9 @@ jobs:
     # NOTE: Make sure to use the Job Name used above in Line 14.
     needs: build
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./Week 1/GitHub Actions Practice
 
     steps:
       - name: Checkout repository
