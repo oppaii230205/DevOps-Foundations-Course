@@ -14,7 +14,9 @@ jobs:
   build:
     # TODO-STEP 3a: Specify the runner for this job
     runs-on: ubuntu-latest
-
+    defaults:
+      run:
+        working-directory: ./Week 1/GitHub Actions Practice
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
